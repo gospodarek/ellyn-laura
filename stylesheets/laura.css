@@ -1,204 +1,202 @@
 html, body {
-  height: 100%;
-  margin:0;
-  background: #6f5439;
+height: 100%;
+margin:0;
+background: #6f5439;
 }
 html {
-  background: #6f5439;
+background: #6f5439;
 }
 #wrapper {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
 }
 #banner{
-  padding-top: 35px;
-  width: 800px;
-  height: 70px;
-  background: #6f5439;
+padding-top: 35px;
+width: 800px;
+height: 70px;
+background: #6f5439;
 }
-
-/*#nav-corner{
-  background-image:url(/images/nav-corner.jpg);
-  background-repeat: no-repeat;
-  height: 34px;
-  padding-top: 34px;
-  padding-right: 30px;
-  text-align: right;
-  color: #94ba9d;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  text-decoration: none;
-  letter-spacing: 4px;
+#nav-corner{
+background-image:url(images/nav-corner.jpg);
+background-repeat: no-repeat;
+height: 34px;
+padding-top: 34px;
+padding-right: 30px;
+text-align: right;
+color: #94ba9d;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: none;
+letter-spacing: 4px;
 }
 .nav{
-  color: #94ba9d;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  text-decoration: none;
-  letter-spacing: 4px;
-  text-align: right;
+color: #94ba9d;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: none;
+letter-spacing: 4px;
+text-align: right;
 }
 .nav:hover{
-  color: #1dbfac;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  text-decoration: none;
-  letter-spacing: 4px;
-  text-align: right;
+color: #1dbfac;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: none;
+letter-spacing: 4px;
+text-align: right;
 }
-*/
 #banner-pics{
-  background-image: url(/images/banner-pics.jpg);
-  background-repeat: no-repeat;
-  width: 800px;
-  height: 246px;
+background-image: url(images/banner-pics.jpg);
+background-repeat: no-repeat;
+width: 800px;
+height: 246px;
 }
 
 /*index*/
 #content-area{
-  background-color: #FFF;
-  width: 800px;
+background-color: #FFF;
+width: 800px;
 }
 .content-left{
-  float: left;
-  padding-top: 15px;
-  padding-left: 45px;
-  width: 480px;
+float: left;
+padding-top: 15px;
+padding-left: 45px;
+width: 480px;
 }
 .content-right{
-  width: 220px;
-  padding: 100px 0 0 550px;
+width: 220px;
+padding: 100px 0 0 550px;
 }
 #footprint{
-  background-image: url(/images/energy-footprint.jpg);
-  background-repeat: no-repeat;
-  width: 210px;
-  height: 68px;
-  padding-top: 100px;
+background-image: url(images/energy-footprint.jpg);
+background-repeat: no-repeat;
+width: 210px;
+height: 68px;
+padding-top: 100px;
 }
 .content{
-  color: #5B5B5B;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  text-decoration: none;
-  line-height: 23px;
+color: #5B5B5B;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: none;
+line-height: 23px;
 }
 .content-color{
-  color: #1dbfac;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  font-weight: bold;
-  text-decoration: none;
-  letter-spacing: 2px;
+color: #1dbfac;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+text-decoration: none;
+letter-spacing: 2px;
 }
 .content-nav{
-  color: #1dbfac;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  text-decoration: none;
+color: #1dbfac;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: none;
 }
 .content-nav:hover{
-  color: #1dbfac;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  text-decoration: underline;
+color: #1dbfac;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: underline;
 }
 #clearfloat {
-  clear: both;
-  height: 0;
+clear: both;
+height: 0;
 }
 
 /*services*/
 .services-left{
-  float: left;
-  padding: 35px 0 0 35px;
-  width: 205px;
+float: left;
+padding: 35px 0 0 35px;
+width: 205px;
 }
 .services-right{
-  width: 460px;
-  padding: 35px 0px 0 300px;
+width: 460px;
+padding: 35px 0px 0 300px;
 }
 .services-border{
-  float: left;
-  width: 15px;
-  height: 80px;
-  margin-top: 50px;
-  border-left: 1px dashed;
-  border-left-color: #999;
+float: left;
+width: 15px;
+height: 80px;
+margin-top: 50px;
+border-left: 1px dashed;
+border-left-color: #999;
 }
 h1{
-  color: #999;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
-  letter-spacing: 1px;
-  padding-top: 5px;
+color: #999;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: bold;
+text-decoration: none;
+letter-spacing: 1px;
+padding-top: 5px;
 }
 h2{
-  color: #94ba9d;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  text-decoration: none;
-  letter-spacing: 1px;
+color: #94ba9d;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: bold;
+text-decoration: none;
+letter-spacing: 1px;
 }
 h3{
-  color: #5B5B5B;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-  text-decoration: none;
-  letter-spacing: 1px;
+color: #5B5B5B;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: bold;
+text-decoration: none;
+letter-spacing: 1px;
 }
 h4{
-  color: #999;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  text-decoration: none;
-  letter-spacing: 1px;
+color: #999;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-decoration: none;
+letter-spacing: 1px;
 }
 .services-nav{
-  color: #999;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  text-decoration: none;
-  letter-spacing: 1px;
+color: #999;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: none;
+letter-spacing: 1px;
 }
 .services-nav:hover{
-  color: #999;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  text-decoration: underline;
-  letter-spacing: 1px;
+color: #999;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: underline;
+letter-spacing: 1px;
 }
 .services-pic{
-  padding-right: 20px;
+padding-right: 20px;
 }
 .content-services{
-  color: #5B5B5B;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  text-decoration: none;
-  line-height: 19px;
+color: #5B5B5B;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+text-decoration: none;
+line-height: 19px;
 }
 .menu {
-  color: #5B5B5B;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  text-decoration: none;
-  line-height: 19px;
+color: #5B5B5B;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+text-decoration: none;
+line-height: 19px;
 }
 
 /*footer*/
 #footer {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 9px;
-  font-weight: normal;
-  color: #FFF;
-  text-align: center;
-  padding-top: 8px;
-  padding-bottom: 8px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 9px;
+font-weight: normal;
+color: #FFF;
+text-align: center;
+padding-top: 8px;
+padding-bottom: 8px;
 }

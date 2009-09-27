@@ -24,6 +24,10 @@ html {
   width: 800px;
   height: 246px;
 }
+a {
+	color: #94ba9d;
+text-decoration:none;
+}
 
 /*index*/
 #content-area{
@@ -186,6 +190,7 @@ h4{
   font-size: 11px;
   text-decoration: none;
   letter-spacing: 4px;
+
 }
 #nav-corner .links li {
   color: #94ba9d;
@@ -195,7 +200,6 @@ h4{
   letter-spacing: 4px;
   text-align: right;
 	position:relative;
-	float:left;
 	}
 #nav-corner .links li ul {
 	margin:0;
@@ -211,9 +215,13 @@ h4{
 	-webkit-border-radius:5px;
 	-webkit-box-shadow:0 0 3px #EFEFEF;
 	-moz-box-shadow:0 0 3px #EFEFEF;
+	text-decoration: none;
 	z-index:500;
   background-image:url(/images/nav-corner.jpg);
   background-repeat: no-repeat;
+	}
+#nav-corner .links 	{ 
+	  list-style-type: none;
 	}
 #nav-corner .links li:hover ul, .bar .links li.menu_hover ul {
 	display:block;

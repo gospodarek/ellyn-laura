@@ -1,0 +1,40 @@
+/* CUSTOM STUFF */
+a {
+	color: #94ba9d;
+	text-decoration:none;
+}
+#nav-corner{
+	height: 34px;
+	padding-top: 34px;
+	padding-right: 30px;
+/*	text-align: right;*/
+	float: right;
+	color: #94ba9d;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none; /*removes underline from link*/
+	letter-spacing: 4px;
+	position: relative;
+	margin-right: 0px;
+	margin-left: auto;
+}
+
+.links ul{
+	
+}
+.links li
+{
+	display: block;
+	float: right;
+	margin: 0 0.15em;
+}
+
+#nav-corner .links  	{ 
+	  list-style-type: none;  /*removes bullets from list*/
+		float: right;
+		margin: 0 0.15em;
+	
+	}
+#nav-corner .subnav ul{ /*removes bullets from list*/
+	 list-style-type: none;
+}
