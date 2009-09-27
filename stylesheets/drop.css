@@ -18,36 +18,6 @@ html {
   background: #6f5439;
 }
 
-/*#nav-corner{
-  background-image:url(/images/nav-corner.jpg);
-  background-repeat: no-repeat;
-  height: 34px;
-  padding-top: 34px;
-  padding-right: 30px;
-  text-align: right;
-  color: #94ba9d;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  text-decoration: none;
-  letter-spacing: 4px;
-}
-.nav{
-  color: #94ba9d;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  text-decoration: none;
-  letter-spacing: 4px;
-  text-align: right;
-}
-.nav:hover{
-  color: #1dbfac;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  text-decoration: none;
-  letter-spacing: 4px;
-  text-align: right;
-}
-*/
 #banner-pics{
   background-image: url(/images/banner-pics.jpg);
   background-repeat: no-repeat;
@@ -202,3 +172,64 @@ h4{
   padding-top: 8px;
   padding-bottom: 8px;
 }
+
+/* CUSTOM STUFF */
+#nav-corner{
+  background-image:url(/images/nav-corner.jpg);
+  background-repeat: no-repeat;
+  height: 34px;
+  padding-top: 34px;
+  padding-right: 30px;
+  text-align: right;
+  color: #94ba9d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  text-decoration: none;
+  letter-spacing: 4px;
+}
+#nav-corner .links li {
+  color: #94ba9d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  text-decoration: none;
+  letter-spacing: 4px;
+  text-align: right;
+	position:relative;
+	float:left;
+	}
+#nav-corner .links li ul {
+	margin:0;
+	display:none;
+	width:130px;
+	position:absolute;
+	top:20px;
+	left:-1px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#f3f3f3 #d6d6d6 #d6d6d6 #f3f3f3;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-webkit-box-shadow:0 0 3px #EFEFEF;
+	-moz-box-shadow:0 0 3px #EFEFEF;
+	z-index:500;
+  background-image:url(/images/nav-corner.jpg);
+  background-repeat: no-repeat;
+	}
+#nav-corner .links li:hover ul, .bar .links li.menu_hover ul {
+	display:block;
+	}
+#nav-corner .links li li {
+	display:block;
+	float:none;
+	height:25px;
+	}
+#nav-corner .links li li a {
+	display:block;
+	line-height:25px;
+	}
+.subnav > a {
+	cursor:default;
+	}
+.subnav > a:hover {
+	color:#600 !important;
+	}
